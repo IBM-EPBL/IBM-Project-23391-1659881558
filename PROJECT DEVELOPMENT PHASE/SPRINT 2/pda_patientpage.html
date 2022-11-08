@@ -1,0 +1,78 @@
+<html lang="en">
+	<head></head>
+<center><h2 style="color:red">Welcome!!Connect with complete care</h2>
+<body style="background-color:powderblue;">
+	<body>
+		<div class="form-wrapper"> <!-- Form-wrapper only for positioning -->
+			<form action="#non" method="post" class="fcorn-register container">
+				<p class="register-info"><center>*Note: All fields are required.<center></p>
+				<div class="row"><h3>PATIENT DETAILS</h3>
+					<p class="col-md-6">Enter Patient name <input type="text" placeholder="First Name" required></p>
+					<p class="col-md-6">Enter Hospital name <input type="text" placeholder="Hospital Name" required></p>
+					<p class="col-md-6">Enter Doctor name you are under treatment <input type="text" placeholder="Doctor Name" required></p>
+					<label for="blood">Choose your blood group: </label>
+  <select name="bloodgroup" id="blood">
+    <option value="O negative">O negative</option>
+    <option value="O positive">O positive</option>
+    <option value="A negative.">A negative</option>
+    <option value="A positive">A positive</option>
+   <option value="B negative">B negative</option>
+	<option value="B positive">B positive</option>
+	<option value="AB negative">AB negative</option>
+	<option value="AB positive">AB positive</option>
+  </select>
+<label for="when required?">When Required? </label>
+  <input type="date" id="when required?" name="when required?">
+  <br><br>
+<label>Is it Emergency? </label>
+</br>
+  <input type="radio" id="yes" name="yes" value="yes"/>    
+                 <label for="yes">YES</label>    
+
+ <input type="radio" id="no" name="no" value="no"/>    
+                 <label for="no">NO</label> <br>
+				</div>
+<p><label for="desc">Add description if any!</label></p>
+<textarea id="desc" name="desc" rows="4" cols="50">---type here--</textarea>
+  <br>
+     <div class="row"><h3>CONTACT DETAILS</h3>
+                       <p class="col-md-6">Enter contact number <input type="number" placeholder="contact number" required></p>
+				<p class="col-md-6">Enter email id <input type="email" placeholder="Email Address" required>
+				   </div>
+				<div class="row">
+					<p class="col-md-6 city-wrap"><label for="city">Choose city: </label>
+						< <select name="Cities" id="city">>
+							<option value="0" selected disabled>City</option>
+							<option value="1">Madurai</option>
+							<option value="2">Chennai</option>
+							<option value="3">Erode</option>
+							<option value="4">Coimbatore</option></select>
+					</p>
+					
+          <div> 
+            <p class="col-xs-12"><form action="upload.php" method="post" enctype="multipart/form-data">
+            Upload your personal photo:
+              <input type="file" name="fileToUpload" id="fileToUpload">
+            </p>
+				</div>
+          
+				<p class="register-toggle">
+					<label for="register-agree" class="toggle-label" data-on="YES" data-off="NO">
+						<input type="checkbox" id="register-agree" class="toggle-input">
+						<span class="toggle-handle"></span>
+					</label>
+					<span class="info">Do you agree to the <a href="#">terms and conditions?</a></span>
+				</p>
+
+<div class="buttons">
+<div class="action_btn">
+<button name="submit" class="Place Request" type="submit" value="Place" >Place Request</button>
+ <button name="submit" class="Reset Request" type="submit" value="Reset" >Reset Request</button>
+<p id="saved"></p>
+</div>
+</div></form>
+    </div>
+   </body>
+</html>
+
+
