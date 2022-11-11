@@ -15,7 +15,7 @@ them and inform them upon a request.
 # Project Development Phase:
 - [X] Delivery of Sprint 1
 - [X] Delivery of Sprint 2
-- [ ] Delivery of Sprint 3
+- [X] Delivery of Sprint 3
 - [ ] Delivery of Sprint 4
 
- Delivery of Sprint 3 and 4 in progress
+ Delivery of Sprint 4 in progress
