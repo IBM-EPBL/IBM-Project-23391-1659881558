@@ -16,6 +16,6 @@ them and inform them upon a request.
 - [X] Delivery of Sprint 1
 - [X] Delivery of Sprint 2
 - [X] Delivery of Sprint 3
-- [ ] Delivery of Sprint 4
+- [X] Delivery of Sprint 4
 
- Delivery of Sprint 4 in progress
+ 
